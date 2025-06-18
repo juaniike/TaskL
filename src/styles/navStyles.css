@@ -1,0 +1,14 @@
+/* App.css */
+.custom-navbar {
+  background-color: #6c757d !important; /* gris Bootstrap oscuro */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white !important;
+  font-weight: bold; /* letra gruesa */
+}
+
+.custom-navbar .nav-link:hover {
+  text-decoration: underline;
+}

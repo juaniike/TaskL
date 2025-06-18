@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(168, 168, 168, 0.603);
+}
+
+h1, h2, h3, p, label {
+    font-weight: 600;
+}
+
+button {
+    font-size: large;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    border: 1px solid black;
+    transform: scale(0.95);
+}
+
